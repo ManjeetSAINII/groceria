@@ -68,3 +68,14 @@ next-env.d.ts
 
 
 *.log
+# Database credentials
+.env*
+!.env.example
+
+# Generated Prisma clients
+/generated/
+
+# Local databases and backups
+*.db
+*.db-journal
+/backups/
