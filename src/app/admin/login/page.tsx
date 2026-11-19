@@ -128,7 +128,7 @@ export default function AdminLogin() {
         </div>
 
         <p className="mt-4 text-center text-xs text-[#9AA69E]">
-          © {new Date().getFullYear()} Groceria. All rights reserved.
+          © 2026 Groceria. All rights reserved.{" "}
         </p>
       </div>
     </main>
