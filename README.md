@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="./docs/assets/groceria-banner.svg" alt="Groceria — your everyday grocery store, online" width="100%" />
-
+<img src="./docs/assets/Groceria Fresh Grocery Banner.png" alt="Groceria Banner" width="100%" />
 <br />
 
 **A modern, full-stack grocery shopping experience.**
