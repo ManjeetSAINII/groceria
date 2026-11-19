@@ -10,10 +10,7 @@ function sign(value: string, secret: string) {
 
 export async function POST(request: Request) {
   try {
-    if (
-      process.env.NODE_ENV === "production" ||
-      process.env.CUSTOMER_TEST_OTP_ENABLED !== "true"
-    ) {
+    if (process.env.CUSTOMER_TEST_OTP_ENABLED !== "true") {
       return NextResponse.json(
         { error: "Test OTP login is disabled" },
         { status: 403 },
